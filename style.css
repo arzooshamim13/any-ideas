@@ -1,0 +1,67 @@
+/* heading */
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&family=Playwrite+NZ:wght@100..400&display=swap');
+
+/* pera */
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
+
+/* button */
+
+
+
+/* nav */
+
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.king{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("https://t4.ftcdn.net/jpg/07/37/87/13/360_F_737871300_LzzbkbVijcYdD7zBQB4a60yiMVUpewWc.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+
+}
+nav{
+    text-align: right;
+    
+    
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 0%;
+    padding-top: 3%;
+}
+li{
+    list-style: none;
+    font-family: 'Playwrite NO';
+    color: white;
+}
+li:hover{
+border-bottom: 3px solid rgb(255, 136, 0) ;
+cursor: pointer;
+}
+h1{
+    padding-top: 10%;
+    font-family: 'Playwrite NZ';
+    width: 55%;
+    text-align: center;
+    margin-left: 6px;
+    color: rgb(255, 136, 0);
+}
+
+p{
+    font-family: 'Playwrite NO';
+    width: 50%;
+    margin-left: 20px;
+    color: white;
+    margin-top: 20px;
+}
